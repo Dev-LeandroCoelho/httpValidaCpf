@@ -118,7 +118,7 @@ namespace httpValidaCpf
         {
             // Aqui você pode integrar com uma base de dados real
             // Por enquanto, estamos simulando que alguns CPFs constam na base de fraudes
-            string[] cpfFraudes = { "11111111111", "22222222222", "12345678909" };
+            string[] cpfFraudes = { "11111111111", "22222222222", "33333333333", "12345678909" };
             return Array.Exists(cpfFraudes, x => x == cpf);
         }
 
@@ -127,7 +127,7 @@ namespace httpValidaCpf
         {
             // Aqui você pode integrar com uma base de dados real
             // Por enquanto, estamos simulando que alguns CPFs constam na base de débitos
-            string[] cpfDebitos = { "33333333333", "44444444444", "12345678909" };
+            string[] cpfDebitos = { "33333333333", "44444444444", "55555555555", "12345678909" };
             return Array.Exists(cpfDebitos, x => x == cpf);
         }
     }
