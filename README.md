@@ -25,7 +25,7 @@ Ele verifica se um CPF é válido de acordo com as regras oficiais e também sim
 
 ### Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/httpValidaCpf.git
+git clone https://github.com/Dev-LeandroCoelho/httpValidaCpf.git
 ```
 
 ### Execute a função localmente:
@@ -33,7 +33,7 @@ git clone https://github.com/seu-usuario/httpValidaCpf.git
 func start
 ```
 
-### Envie uma requisição `POST` para `http://localhost:7071/api/fnvalidacpf` com o CPF no corpo da requisição:
+### Envie uma requisição `POST` para `http://localhost:7190/api/fnvalidacpf` com o CPF no corpo da requisição:
 ```json
 {
     "cpf": "123.456.789-09"
